@@ -1,9 +1,15 @@
 ## This script provides a dashboard for monitoring various system resources and allows users to call specific parts of the dashboard using command-line switches.
 
+### Prequisites
+- Script should be run with root/sudo previleges.
+- Tools must be installed: `vnstat` `net-tools` `jq` `sysstat`
 ### Usage:
 - Save script as: **monitor.sh** <br>
 - Make it executable: **chmod +x monitor.sh** <br>
-- Run it: **./monitor.sh [-cpu | -memory | -network | -disk | -load | -process | -service | -all]**
+- Run it:
+```bash
+./monitor.sh [ -cpu | -memory | -network | -disk | -load | -process | -service | -all ]
+```
 
 ### Explanation:
 
