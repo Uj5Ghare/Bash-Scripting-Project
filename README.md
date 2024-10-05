@@ -1,2 +1,2 @@
-# SafeSquid-Labs-Project
-This repo is to store task related to SafeSquid Labs
+# Bash-Scripting-Project
+This project is to help server monitoring.
